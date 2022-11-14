@@ -21,12 +21,12 @@
 					$("#popup img").attr("src",s2);	
 					 $("#popup h2").text(a1);	
 					 $("#popup").delay(300).fadeIn();
-					 $("body").css("overflow","hidden");
+				
 				});
 			 //큰 팝업 그림 닫기 
 			$("#popup button").click(function(){
 			 $("#popup").fadeOut();
-			 $("body").css("overflow","auto");
+			 
 			});
 			
 			});//////전체 끝
@@ -51,7 +51,7 @@
 			
 
 		/*큰이미지 팝업*/
-		#popup {position:fixed; top:0; width:100%; height:100%; overflow:auto; display:none; background:black;}
+		#popup {position:fixed; top:0; width:414px; margin:auto; height:100%; overflow:auto; display:none; background:black;}
 		#popup div {display:flex; background:black; align-items:center;}
 		#popup h2{flex:1; color:white; font-size:1.5rem; font-weight:normal;}
 		
